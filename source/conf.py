@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 #
 # Rigado Developers documentation build configuration file, created by
-# sphinx-quickstart on Tue Jun 28 14:42:38 2016.
+# sphinx-quickstart on Tue Jun 28 15:26:58 2016.
 #
 # This file is execfile()d with the current directory set to its
 # containing dir.
@@ -46,6 +46,7 @@ templates_path = ['_templates']
 # You can specify multiple suffix as a list of string:
 #
 source_suffix = ['.rst', '.md']
+#source_suffix = '.rst'
 
 # The encoding of source files.
 #
@@ -87,7 +88,7 @@ language = None
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
 # This patterns also effect to html_static_path and html_extra_path
-exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
+exclude_patterns = []
 
 # The reST default role (used for this markup: `text`) to use for all
 # documents.
